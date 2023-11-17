@@ -64,6 +64,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .n_coming-soon-wrap {
+    padding-bottom: 100px;
+  }
+
   .n_coming-soon-wrap > h1 {
     font-size: 40px;
   }
