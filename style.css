@@ -14,7 +14,7 @@ body {
 
 .n_coming-soon-wrap {
   height: 100%;
-  background-color: #d04b26;
+  background-color: #eb6b48;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +42,7 @@ body {
 
 .scrolling-text {
   white-space: nowrap;
-  font-size: 75px;
+  font-size: 65px;
   color: #fff; /* Set your preferred text color */
   animation: scrollText 200s linear infinite; /* Adjust duration as needed */
   font-weight: 700;
