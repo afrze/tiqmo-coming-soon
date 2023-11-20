@@ -45,7 +45,7 @@ body {
   font-size: 65px;
   color: #fff;
   /* Set your preferred text color */
-  animation: scrollText 200s linear infinite;
+  animation: scrollText 1000s linear infinite;
   /* Adjust duration as needed */
   font-weight: 700;
 }
