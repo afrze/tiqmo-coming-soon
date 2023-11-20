@@ -91,7 +91,7 @@ body {
 
   .scrolling-text {
     font-size: 40px;
-    animation: scrollText 300s linear infinite;
+    animation: scrollText 1000s linear infinite;
   }
 }
 
