@@ -63,15 +63,6 @@ body {
   }
 }
 
-@-webkit-keyframes scrollText {
-  from {
-    -webkit-transform: translateX(-100%);
-  }
-  to {
-    -webkit-transform: translateX(100%);
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .n_coming-soon-wrap {
     padding-bottom: 150px;
