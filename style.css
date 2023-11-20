@@ -21,11 +21,11 @@ body {
   align-items: center;
 }
 
-.n_coming-soon-wrap > h1 {
+.n_coming-soon-wrap>h1 {
   font-size: 75px;
 }
 
-.n_coming-soon-wrap > p {
+.n_coming-soon-wrap>p {
   font-size: 20px;
   font-weight: 400;
 }
@@ -43,21 +43,34 @@ body {
 .scrolling-text {
   white-space: nowrap;
   font-size: 65px;
-  color: #fff; /* Set your preferred text color */
-  animation: scrollText 200s linear infinite; /* Adjust duration as needed */
+  color: #fff;
+  /* Set your preferred text color */
+  animation: scrollText 200s linear infinite;
+  /* Adjust duration as needed */
   font-weight: 700;
 }
 
 .text-with-border {
-  color: #fff; /* Text color */
+  color: #fff;
+  /* Text color */
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000; /* Adjust color and offset as needed */
+    1px 1px 0 #000;
+  /* Adjust color and offset as needed */
+}
+
+.marqueeText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 65px;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: 700;
 }
 
 @keyframes scrollText {
   from {
     transform: translateX(-100%);
   }
+
   to {
     transform: translateX(100%);
   }
@@ -68,11 +81,11 @@ body {
     padding-bottom: 150px;
   }
 
-  .n_coming-soon-wrap > h1 {
+  .n_coming-soon-wrap>h1 {
     font-size: 40px;
   }
 
-  .n_coming-soon-wrap > p {
+  .n_coming-soon-wrap>p {
     font-size: 16px;
   }
 
@@ -83,11 +96,11 @@ body {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .n_coming-soon-wrap > h1 {
+  .n_coming-soon-wrap>h1 {
     font-size: 60px;
   }
 
-  .n_coming-soon-wrap > p {
+  .n_coming-soon-wrap>p {
     font-size: 18px;
   }
 
@@ -97,6 +110,7 @@ body {
 }
 
 @media only screen and (max-height: 450px) {
+
   html,
   body {
     height: 500px;
